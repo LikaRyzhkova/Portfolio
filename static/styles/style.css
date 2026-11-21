@@ -1,0 +1,155 @@
+.name{
+font-weight: bold;
+}
+.mypic{
+width: 60%;
+display: block;
+margin: 0 auto;
+margin-top: 20px;
+border-radius: 80px;
+
+
+
+}
+.about-me_list{
+list-style-type: disc;
+}
+.right-title{
+font-size: 25px;
+
+
+
+
+
+}
+.social-element {
+
+     list-style-type:  none;
+    color:#551b8c;
+}
+
+.social-element a:hover{
+
+     list-style-type:  none;
+    color:rgb(63, 65, 64);
+}
+
+.test-element a:hover{
+    list-style-type:  none;
+    color:rgb(63, 65, 64);
+}
+
+/*для всех тегов*/
+a{
+    
+     text-decoration: none;
+     
+     font-weight: bold;
+     color:#551b8c;
+}   
+.header{
+background-image: url("../images/фото\ сайт.png");
+
+height: 856px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.header-top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.header-center{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 5;
+}
+
+.discription{
+    font-size: 22px;
+}
+
+.menu-element__link a{
+     color: rgb(255, 255, 255);
+     background-color: rgb(56, 84, 84);
+     border-radius: 50px;
+     padding: 10px;
+      
+    
+}
+.menu {
+    display: flex;
+    gap: 20px; /* расстояние между пунктами */
+    list-style: none; /* убираем точки */
+    }
+   .menu-element__link a:hover{
+    color:rgb(10, 66, 55);
+    background-color:rgb(16, 133, 110);
+
+   }
+
+   .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+   }
+
+   .right {
+    width: 50%;
+   }
+
+   .left {
+    width: 50%;
+   }
+   body {
+  margin: 0;
+  background: linear-gradient(180deg, #757273 30%, #3f414a 40%, #d3cfcf 100%);
+}
+.art-title{
+color: rgb(195, 225, 219);
+background-color: rgb(90, 103, 103);
+border-radius: 50px;
+padding: 10px;
+width: 30%;
+}
+p,li,h2,h1 {
+color: rgb(255, 255, 255);
+}
+.art-title{
+  color: rgb(255, 255, 255);
+  
+  }
+  .right-messenger{
+background-color: rgb(90, 103, 103);
+border-radius: 50px;
+padding: 10px;
+width: 30%;
+
+  }
+
+  .footer-about{
+
+    text-align: center;
+    color:rgb(63, 65, 64)
+    
+  }
+  
